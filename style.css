@@ -66,6 +66,7 @@ select {
   background-position: 90%;
   background-size: 22px;
   outline: none;
+  cursor: pointer;
 }
 
 .reservation {
@@ -159,6 +160,7 @@ h3 {
   width: calc(100vw - 50px);
   border-radius: 3px;
   margin-bottom: 10px;
+  cursor: pointer;
 }
 
 .opinion-section ul li div img{
@@ -218,6 +220,20 @@ h4 {
   margin-top: 20px;
   margin-right: 10px;
   margin-bottom: 30px;
+  cursor: pointer;
+}
+
+a, footer span, footer img, header img {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:visited {
+  color:inherit;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 .reserved ul li img {
@@ -296,6 +312,10 @@ footer div div > p {
 
 .show-more {
   display: none;
+}
+
+button {
+  cursor: pointer;
 }
 
 @media screen and (min-width: 744px) {
