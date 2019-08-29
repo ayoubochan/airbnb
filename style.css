@@ -348,6 +348,10 @@ button {
     margin-right: 10px;
   }
 
+  footer {
+    padding-bottom: 50px;
+  }
+
   footer hr {
     display: block;
   }
