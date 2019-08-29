@@ -4,10 +4,13 @@ body {
 }
 
 header {
-  background-color: rgb(35, 35, 61);
+  
   padding: 25px;
   color: white;
   font-size: 16px;
+  background-image: url("background-mobile.jpg");
+  background-repeat: no-repeat;
+  
 }
 
 header img {
@@ -394,6 +397,7 @@ button {
   }
   header div div {
     width: 100%;
+    max-width: 460px;
   }
 
   header div div:first-child {
@@ -406,6 +410,8 @@ button {
 
   header {
     padding-bottom: 50px;
+    background-image: url("background-tablet.jpg");
+    background-size: cover;
   }
 
   header div p {
@@ -454,7 +460,9 @@ button {
 
   header {
     padding-bottom: 70px;
-    position: relative
+    position: relative;
+    background-image: url("background-computer.jpg");
+    background-position: center;
   }
 
   .head-text {
