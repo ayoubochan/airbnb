@@ -380,6 +380,10 @@ button {
     margin-top: 50px;
   }
 
+  .reserved {
+    padding-bottom: 50px;
+  }
+
   .reserved ul li {
     margin-bottom: 20px;
   }
